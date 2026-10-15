@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/components.css';
+import emblem from '../assets/emblema.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,8 +14,11 @@ const Header = () => {
       <div className="container">
         <div className="header-content">
           <div className="logo">
+            <img src={emblem} alt="Brasão da FORJA TECNOLOGIA" />
+            <div>
             <h1>FORJA TECNOLOGIA</h1>
             <p className="slogan">Solução & Inovação !</p>
+            </div>
           </div>
           
           <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>

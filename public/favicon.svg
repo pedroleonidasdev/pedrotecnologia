@@ -1,1 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#120d09"/><rect x="2.5" y="2.5" width="59" height="59" rx="10" fill="none" stroke="#c9a24a" stroke-width="3"/><g stroke="#e8c46a" stroke-linecap="round"><path d="M18 46L46 14M46 46L18 14" stroke-width="5"/><path d="M16.8 36.4L27.2 45.6M47.2 36.4L36.8 45.6" stroke-width="4"/></g><circle cx="32" cy="30" r="5" fill="#d9552b"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+<radialGradient id="bg" cx="50%" cy="58%" r="70%"><stop offset="0" stop-color="#3a2415"/><stop offset=".65" stop-color="#150e08"/><stop offset="1" stop-color="#0a0604"/></radialGradient>
+<radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#d9552b" stop-opacity=".55"/><stop offset="1" stop-color="#d9552b" stop-opacity="0"/></radialGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbe9a8"/><stop offset=".5" stop-color="#cfa648"/><stop offset="1" stop-color="#8a6a22"/></linearGradient>
+<linearGradient id="steel" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8f969e"/><stop offset=".5" stop-color="#f4f2ea"/><stop offset="1" stop-color="#9aa1a9"/></linearGradient>
+<linearGradient id="shield" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9a2d1b"/><stop offset="1" stop-color="#3f100c"/></linearGradient>
+<linearGradient id="fire" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#d9552b"/><stop offset="1" stop-color="#ffc15a"/></linearGradient>
+<g id="sword">
+<polygon points="256,30 272,64 272,372 240,372 240,64" fill="url(#steel)" stroke="#5d646b" stroke-width="2"/>
+<line x1="256" y1="70" x2="256" y2="366" stroke="#7b838b" stroke-width="3"/>
+<rect x="208" y="372" width="96" height="16" rx="8" fill="url(#gold)" stroke="#6b4f16" stroke-width="2"/>
+<rect x="249" y="388" width="14" height="64" fill="#9a6a36"/>
+<circle cx="256" cy="462" r="15" fill="url(#gold)" stroke="#6b4f16" stroke-width="2"/>
+</g>
+</defs>
+<rect width="512" height="512" fill="url(#bg)"/>
+<circle cx="256" cy="300" r="190" fill="url(#glow)"/>
+<circle cx="256" cy="256" r="244" fill="none" stroke="url(#gold)" stroke-width="7"/>
+<circle cx="256" cy="256" r="230" fill="none" stroke="#8a6a22" stroke-width="2"/>
+<use href="#sword" transform="rotate(42 256 256)"/>
+<use href="#sword" transform="rotate(-42 256 256)"/>
+<path d="M156 156H356V272C356 342 310 382 256 412C202 382 156 342 156 272Z" fill="#000" opacity=".45" transform="translate(0 8)"/>
+<path d="M148 148H364V274C364 348 314 392 256 424C198 392 148 348 148 274Z" fill="url(#gold)"/>
+<path d="M160 160H352V272C352 338 308 376 256 404C204 376 160 338 160 272Z" fill="url(#shield)"/>
+<path d="M172 172H340V272C340 330 302 364 256 388C210 364 172 330 172 272Z" fill="none" stroke="#cfa648" stroke-width="2" opacity=".6"/>
+<rect x="196" y="182" width="120" height="92" rx="9" fill="url(#gold)" stroke="#6b4f16" stroke-width="2"/>
+<rect x="206" y="192" width="100" height="72" rx="4" fill="#0d0906"/>
+<rect x="206" y="192" width="100" height="72" rx="4" fill="url(#glow)"/>
+<g fill="none" stroke="#ffb347" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="M236 212L220 228L236 244"/><path d="M276 212L292 228L276 244"/><path d="M265 208L247 248" stroke="#ffe7a0"/></g>
+<rect x="248" y="274" width="16" height="12" fill="url(#gold)"/>
+<rect x="228" y="284" width="56" height="9" rx="4.5" fill="url(#gold)" stroke="#6b4f16" stroke-width="2"/>
+<path d="M190 304H326Q326 322 298 324V338H320V356H192V338H214V324Q190 322 190 304Z" fill="url(#gold)" stroke="#6b4f16" stroke-width="2"/>
+</svg>

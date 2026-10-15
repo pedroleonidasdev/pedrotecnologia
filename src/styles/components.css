@@ -1,7 +1,9 @@
 .header{position:fixed;inset:0 0 auto;z-index:1000;background:rgba(18,13,9,.96);border-bottom:3px double #c9a24a;padding:12px 0}
 .header-content{display:flex;justify-content:space-between;align-items:center}
 .logo h1{font-size:1.6rem;color:#e8c46a;letter-spacing:.12em;text-transform:uppercase}
-.logo h1::before{content:"⚔ "}
+.logo{display:flex;align-items:center;gap:12px}
+.logo img{width:50px;height:50px;border-radius:50%}
+.hero-emblem{display:block;width:150px;height:150px;border-radius:50%;margin:0 auto 18px;filter:drop-shadow(0 0 30px rgba(217,85,43,.45))}
 .slogan{font-size:.85rem;color:#9c8a68;font-style:italic}
 .nav{display:flex;gap:28px}
 .nav a{color:#e6d6ad;text-decoration:none;font:.85rem 'Cinzel',serif;letter-spacing:.1em;text-transform:uppercase;transition:.25s}
@@ -62,6 +64,8 @@
 @media (max-width:900px){
 .services-grid,.about-content,.contact-content,.footer-content{grid-template-columns:1fr}
 .hero-title{font-size:2.1rem}
+.hero-emblem{width:110px;height:110px}
+.logo img{width:40px;height:40px}
 .logo h1{font-size:1.15rem;letter-spacing:.06em}
 .menu-toggle{display:flex}
 .nav{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:16px;padding:20px;background:#120d09;border-bottom:3px double #c9a24a}

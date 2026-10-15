@@ -1,6 +1,6 @@
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-section[id]{scroll-margin-top:80px}
+section[id]{scroll-margin-top:90px}
 body{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.15rem;line-height:1.6;background:#120d09;overflow-x:hidden}
 h1,h2,h3,h4,.btn{font-family:'Cinzel',Georgia,serif}
 .container{max-width:1160px;margin:0 auto;padding:0 20px}

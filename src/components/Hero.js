@@ -1,12 +1,14 @@
 import React from 'react';
 import '../styles/components.css';
 import '../styles/portfolio.css';
+import emblem from '../assets/emblema.png';
 
 const Hero = () => {
   return (
     <section id="home" className="hero">
       <div className="container">
         <div className="hero-content">
+          <img className="hero-emblem" src={emblem} alt="Brasão da FORJA TECNOLOGIA" />
           <span className="pf-status pf-hero-status"><i /> disponível para novos projetos</span>
           <h1 className="hero-title">
             Forjamos ideias em <span className="highlight">soluções digitais</span>

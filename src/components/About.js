@@ -3,8 +3,8 @@ import '../styles/components.css';
 
 const About = () => {
   const stats = [
-    { number: '160+', label: 'Projetos Entregues' },
-    { number: '60+', label: 'Clientes Satisfeitos' },
+    { number: '5', label: 'Projetos Entregues' },
+    { number: '5', label: 'Clientes Satisfeitos' },
     { number: '3+', label: 'Anos de Experiência' },
     { number: '15+', label: 'Especialistas' }
   ];

@@ -3,10 +3,10 @@ import '../styles/components.css';
 
 const About = () => {
   const stats = [
-    { number: '500+', label: 'Projetos Entregues' },
-    { number: '200+', label: 'Clientes Satisfeitos' },
-    { number: '10+', label: 'Anos de Experiência' },
-    { number: '50+', label: 'Especialistas' }
+    { number: '160+', label: 'Projetos Entregues' },
+    { number: '60+', label: 'Clientes Satisfeitos' },
+    { number: '3+', label: 'Anos de Experiência' },
+    { number: '15+', label: 'Especialistas' }
   ];
 
   return (

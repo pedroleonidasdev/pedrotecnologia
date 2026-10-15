@@ -48,6 +48,10 @@
 .info-icon{font-size:1.7rem}
 .info-item h4{color:#e8c46a}
 .info-item p{color:var(--mut)}
+.info-item a{color:var(--mut);text-decoration:none}
+.info-item a:hover{color:#d9552b}
+.info-icon svg{width:28px;height:28px;color:#e8c46a;display:block}
+.social-links svg{width:20px;height:20px}
 .contact-form{display:grid;gap:14px;background:var(--card);border:2px solid #c9a24a;padding:28px}
 .contact-form input,.contact-form textarea{width:100%;padding:12px;background:#1a130d;border:1px solid var(--line);color:var(--fg);font:inherit;border-radius:2px}
 .contact-form input:focus,.contact-form textarea:focus{outline:none;border-color:#c9a24a}

@@ -1,0 +1,55 @@
+html { scroll-behavior: smooth; }
+section[id] { scroll-margin-top: 70px; }
+.pf-founder, .pf-featured, .pf-projects { background: linear-gradient(180deg, #0a0f1e 0%, #050813 100%); color: #e2e8f0; }
+.pf-featured { background: #050813; }
+.pf-featured .section-header h2, .pf-projects .section-header h2 { color: #fff; }
+.pf-title { color: #fff; font-size: 2.2rem; margin-bottom: 16px; }
+.pf-eyebrow { font-family: 'Courier New', monospace; color: #60a5fa; margin-bottom: 12px; }
+.pf-text { color: #94a3b8; margin-bottom: 20px; }
+.pf-text strong { color: #e2e8f0; }
+.pf-status { display: inline-flex; align-items: center; gap: 8px; font: 0.8rem 'Courier New', monospace; color: #34d399; border: 1px solid rgba(52,211,153,.35); background: rgba(52,211,153,.08); padding: 6px 12px; border-radius: 20px; }
+.pf-status i, .pf-live i { width: 7px; height: 7px; border-radius: 50%; background: #34d399; animation: pf-blink 2s infinite; }
+@keyframes pf-blink { 50% { opacity: .35; } }
+.pf-founder-grid, .pf-featured-grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: 50px; align-items: center; }
+.pf-founder-right { display: flex; flex-direction: column; align-items: center; gap: 24px; }
+.pf-avatar { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 4px solid #60a5fa; box-shadow: 0 20px 50px -12px rgba(124,58,237,.6); }
+.pf-code, .pf-browser { width: 100%; background: rgba(30,41,59,.85); border: 1px solid rgba(59,130,246,.3); border-radius: 12px; overflow: hidden; margin: 0; box-shadow: 0 10px 40px rgba(0,0,0,.5); }
+.pf-bar { display: flex; align-items: center; gap: 6px; padding: 10px 14px; background: rgba(15,23,42,.9); border-bottom: 1px solid rgba(59,130,246,.2); }
+.pf-bar span { width: 10px; height: 10px; border-radius: 50%; background: #f87171; }
+.pf-bar span:nth-child(2) { background: #fbbf24; }
+.pf-bar span:nth-child(3) { background: #34d399; }
+.pf-bar em { margin-left: 10px; font: 0.75rem 'Courier New', monospace; color: #64748b; font-style: normal; }
+.pf-code pre { padding: 16px; font: 0.82rem/1.7 'Courier New', monospace; color: #94a3b8; overflow-x: auto; }
+.pf-code b { color: #a78bfa; font-weight: 400; }
+.pf-code s { color: #60a5fa; text-decoration: none; }
+.pf-head { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; font: 0.8rem 'Courier New', monospace; color: #64748b; margin-bottom: 12px; }
+.pf-live { display: inline-flex; align-items: center; gap: 6px; color: #34d399; }
+.pf-ver { border: 1px solid rgba(59,130,246,.3); padding: 2px 8px; border-radius: 6px; color: #60a5fa; }
+.pf-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 20px; }
+.pf-stats div { background: rgba(30,41,59,.6); border: 1px solid rgba(59,130,246,.2); border-radius: 10px; padding: 12px 8px; text-align: center; }
+.pf-stats strong { display: block; font-size: 1.5rem; color: #60a5fa; }
+.pf-stats span { font-size: 0.7rem; color: #94a3b8; }
+.pf-log { list-style: none; margin-bottom: 20px; font: 0.8rem/1.5 'Courier New', monospace; }
+.pf-log li { display: flex; gap: 10px; padding: 5px 0; color: #94a3b8; }
+.pf-log b { width: 12px; flex-shrink: 0; }
+.pf-log .fix b { color: #f87171; } .pf-log .add b { color: #34d399; } .pf-log .chg b { color: #fbbf24; }
+.pf-badges { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+.pf-badges span { font: 0.75rem 'Courier New', monospace; color: #a78bfa; border: 1px solid rgba(167,139,250,.35); padding: 4px 10px; border-radius: 6px; }
+.pf-browser img { width: 100%; display: block; }
+.pf-browser figcaption { padding: 10px 14px; font-size: 0.78rem; color: #64748b; }
+.pf-repo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+.pf-repo { display: flex; flex-direction: column; gap: 12px; background: rgba(30,41,59,.6); border: 1px solid rgba(59,130,246,.2); border-radius: 12px; padding: 22px; transition: all .3s ease; }
+.pf-repo:hover { border-color: rgba(124,58,237,.6); transform: translateY(-4px); }
+.pf-repo h4 { color: #fff; font-family: 'Courier New', monospace; }
+.pf-repo p { color: #94a3b8; font-size: 0.9rem; flex: 1; }
+.pf-meta { display: flex; justify-content: space-between; gap: 8px; font-size: 0.78rem; color: #64748b; }
+.pf-meta i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; }
+.pf-repo a { color: #60a5fa; font-weight: 600; text-decoration: none; }
+.pf-repo a:hover { color: #a78bfa; }
+.pf-hero-status { margin-bottom: 20px; }
+.social-links a[aria-label="GitHub"] { font-size: 0.8rem; }
+@media (max-width: 920px) {
+  .pf-founder-grid, .pf-featured-grid { grid-template-columns: 1fr; }
+  .pf-avatar { width: 150px; height: 150px; }
+}
+@media (max-width: 480px) { .pf-stats { grid-template-columns: repeat(2, 1fr); } }

@@ -6,7 +6,7 @@ const About = () => {
     { number: '5', label: 'Projetos Entregues' },
     { number: '5', label: 'Clientes Satisfeitos' },
     { number: '3+', label: 'Anos de Experiência' },
-    { number: '15+', label: 'Especialistas' }
+    { number: '1', label: 'Especialista' }
   ];
 
   return (

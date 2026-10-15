@@ -14,7 +14,7 @@ const About = () => {
       <div className="container">
         <div className="about-content">
           <div className="about-text">
-            <h2>Sobre a Leonidas Tech</h2>
+            <h2>Sobre a Forja Tech</h2>
             <p className="about-description">
               Somos uma empresa de tecnologia focada em transformar negócios através 
               de soluções inovadoras. Com uma equipe altamente qualificada e apaixonada 

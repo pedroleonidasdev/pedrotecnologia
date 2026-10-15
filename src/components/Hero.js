@@ -9,10 +9,10 @@ const Hero = () => {
         <div className="hero-content">
           <span className="pf-status pf-hero-status"><i /> disponível para novos projetos</span>
           <h1 className="hero-title">
-            Transformamos ideias em <span className="highlight">soluções digitais</span>
+            Forjamos ideias em <span className="highlight">soluções digitais</span>
           </h1>
           <p className="hero-subtitle">
-            Na Leonidas Tech, combinamos tecnologia de ponta com inovação para 
+            Na Forja Tech, unimos a arte da forja à tecnologia de ponta para 
             impulsionar o seu negócio para o futuro.
           </p>
           <div className="hero-buttons">
@@ -23,15 +23,15 @@ const Hero = () => {
         <div className="hero-image">
           <div className="tech-animation">
             <div className="floating-card card-1">
-              <span>💻</span>
+              <span>⚒️</span>
               <p>Desenvolvimento</p>
             </div>
             <div className="floating-card card-2">
-              <span>🚀</span>
+              <span>🔥</span>
               <p>Inovação</p>
             </div>
             <div className="floating-card card-3">
-              <span>⚡</span>
+              <span>⚔️</span>
               <p>Performance</p>
             </div>
           </div>

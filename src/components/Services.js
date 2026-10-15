@@ -40,7 +40,7 @@ const Services = () => {
       <div className="container">
         <div className="section-header">
           <h2>Nossos Serviços</h2>
-          <p>Soluções tecnológicas completas para o seu negócio</p>
+          <p>Soluções digitais forjadas sob medida para o seu negócio</p>
         </div>
         
         <div className="services-grid">

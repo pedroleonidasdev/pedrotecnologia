@@ -1,93 +1,18 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-:root {
-  --primary-color: #2563eb;
-  --secondary-color: #1e40af;
-  --accent-color: #3b82f6;
-  --dark-color: #1e293b;
-  --light-color: #f8fafc;
-  --text-color: #334155;
-  --text-light: #64748b;
-  --white: #ffffff;
-  --gradient: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
-}
-
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: var(--text-color);
-  line-height: 1.6;
-  overflow-x: hidden;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-section {
-  padding: 80px 0;
-}
-
-.section-header {
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-.section-header h2 {
-  font-size: 2.5rem;
-  color: var(--dark-color);
-  margin-bottom: 15px;
-}
-
-.section-header p {
-  font-size: 1.1rem;
-  color: var(--text-light);
-}
-
-.btn {
-  padding: 12px 30px;
-  border: none;
-  border-radius: 8px;
-  font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.btn-primary {
-  background: var(--gradient);
-  color: var(--white);
-}
-
-.btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
-}
-
-.btn-secondary {
-  background: transparent;
-  color: var(--primary-color);
-  border: 2px solid var(--primary-color);
-}
-
-.btn-secondary:hover {
-  background: var(--primary-color);
-  color: var(--white);
-}
-
-@media (max-width: 768px) {
-  section {
-    padding: 60px 0;
-  }
-
-  .section-header h2 {
-    font-size: 2rem;
-  }
-}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+section[id]{scroll-margin-top:80px}
+body{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.15rem;line-height:1.6;background:#120d09;overflow-x:hidden}
+h1,h2,h3,h4,.btn{font-family:'Cinzel',Georgia,serif}
+.container{max-width:1160px;margin:0 auto;padding:0 20px}
+section{padding:90px 0;color:var(--fg)}
+.hero,.about,.pf-featured,.contact{--fg:#efe3c8;--mut:#bfae8c;--card:rgba(42,33,26,.85);--line:#6b5233;--head:#f1d9a0;--ok:#5fbf85}
+.services,.pf-founder,.pf-projects{--fg:#2b1d12;--mut:#5e4a30;--card:#f7edd2;--line:#b8975a;--head:#6e1d16;--ok:#2f7d4f;background:linear-gradient(#efe0b8,#e1cd9b)}
+.section-header{text-align:center;margin-bottom:50px}
+.section-header h2{font-size:2.3rem;color:var(--head);letter-spacing:.06em;text-transform:uppercase}
+.section-header h2::after{content:"⚜";display:block;color:#c9a24a;font-size:1.2rem;margin-top:6px}
+.section-header p{color:var(--mut);font-style:italic}
+.btn{padding:12px 28px;border:2px solid #c9a24a;border-radius:2px;font-weight:700;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;text-decoration:none;display:inline-block;transition:.25s}
+.btn-primary{background:linear-gradient(#b3361a,#7a1f1f);color:#f7e6b8}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 0 22px rgba(217,85,43,.55)}
+.btn-secondary{background:transparent;color:#c9a24a}
+.btn-secondary:hover{background:#c9a24a;color:#1a1410}

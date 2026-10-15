@@ -1,9 +1,9 @@
 {
-  "name": "leonidas-tech",
+  "name": "forja-tech",
   "version": "1.0.0",
   "private": true,
-  "description": "Site institucional da Leonidas Tech - Solução & Inovação !",
-  "author": "Leonidas Tech",
+  "description": "Site institucional da Forja Tech - Solução & Inovação !",
+  "author": "Forja Tech",
   "license": "MIT",
   "dependencies": {
     "react": "^18.2.0",

@@ -1,9 +1,9 @@
 {
-  "name": "forja-tech",
+  "name": "forja-tecnologia",
   "version": "1.0.0",
   "private": true,
-  "description": "Site institucional da Forja Tech - Solução & Inovação !",
-  "author": "Forja Tech",
+  "description": "Site institucional da FORJA TECNOLOGIA - Solução & Inovação !",
+  "author": "FORJA TECNOLOGIA",
   "license": "MIT",
   "dependencies": {
     "react": "^18.2.0",

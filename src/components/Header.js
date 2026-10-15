@@ -13,7 +13,7 @@ const Header = () => {
       <div className="container">
         <div className="header-content">
           <div className="logo">
-            <h1>Forja Tech</h1>
+            <h1>FORJA TECNOLOGIA</h1>
             <p className="slogan">Solução & Inovação !</p>
           </div>
           

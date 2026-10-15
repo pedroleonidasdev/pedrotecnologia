@@ -12,7 +12,7 @@ const Hero = () => {
             Forjamos ideias em <span className="highlight">soluções digitais</span>
           </h1>
           <p className="hero-subtitle">
-            Na Forja Tech, unimos a arte da forja à tecnologia de ponta para 
+            Na FORJA TECNOLOGIA, unimos a arte da forja à tecnologia de ponta para 
             impulsionar o seu negócio para o futuro.
           </p>
           <div className="hero-buttons">

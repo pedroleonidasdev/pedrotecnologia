@@ -62,6 +62,7 @@
 @media (max-width:900px){
 .services-grid,.about-content,.contact-content,.footer-content{grid-template-columns:1fr}
 .hero-title{font-size:2.1rem}
+.logo h1{font-size:1.15rem;letter-spacing:.06em}
 .menu-toggle{display:flex}
 .nav{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:16px;padding:20px;background:#120d09;border-bottom:3px double #c9a24a}
 .nav-open{display:flex}}

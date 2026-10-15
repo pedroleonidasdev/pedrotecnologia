@@ -1,8 +1,8 @@
-# Forja Tech
+# FORJA TECNOLOGIA
 
 > **Slogan:** Solução & Inovação !
 
-Site único que reúne o institucional da Forja Tech e o portfólio de Pedro Leonidas (antiga landing page), em React 18.
+Site único que reúne o institucional da FORJA TECNOLOGIA e o portfólio de Pedro Leonidas (antiga landing page), em React 18.
 
 ## Seções
 

@@ -16,6 +16,6 @@ Home · Serviços · Sobre · **Fundador** · **Portfólio (PDV Católico)** · 
 
 ## Contato
 
-- Email: contato@pltecnologia.com.br
+- Email: pedroleonidasdev@hotmail.com
 - WhatsApp: (61) 99825-9943
 - GitHub: https://github.com/pedrocsdev

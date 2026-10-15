@@ -46,12 +46,12 @@ const Featured = () => (
             {badges.map((b) => <span key={b}>{b}</span>)}
           </div>
           <div className="hero-buttons">
-            <a href="https://lojapresentededeus.vercel.app" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Acessar sistema →</a>
+            <a href="https://lojapresentededeus.com.br" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Acessar sistema →</a>
             <a href="#projetos" className="btn btn-secondary">Ver outros projetos</a>
           </div>
         </div>
         <figure className="pf-browser">
-          <div className="pf-bar"><span /><span /><span /><em>lojapresentededeus.vercel.app</em></div>
+          <div className="pf-bar"><span /><span /><span /><em>lojapresentededeus.com.br</em></div>
           <img src={shot} alt="Tela de gestão de usuários do PDV Católico" />
           <figcaption>Gestão de usuários — controle de perfil de acesso</figcaption>
         </figure>

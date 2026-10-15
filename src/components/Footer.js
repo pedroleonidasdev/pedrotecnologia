@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>PL TECNOLOGIA</h3>
+            <h3>Leonidas Tech</h3>
             <p className="footer-slogan">Solução & Inovação !</p>
             <p className="footer-description">
               Transformando negócios através da tecnologia.
@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} PL TECNOLOGIA. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Leonidas Tech. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

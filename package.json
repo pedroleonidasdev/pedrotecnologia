@@ -1,9 +1,9 @@
 {
-  "name": "pl-tecnologia",
+  "name": "leonidas-tech",
   "version": "1.0.0",
   "private": true,
-  "description": "Site institucional da PL TECNOLOGIA - Solução & Inovação !",
-  "author": "PL TECNOLOGIA",
+  "description": "Site institucional da Leonidas Tech - Solução & Inovação !",
+  "author": "Leonidas Tech",
   "license": "MIT",
   "dependencies": {
     "react": "^18.2.0",

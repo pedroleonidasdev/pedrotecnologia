@@ -1,8 +1,8 @@
-# PL TECNOLOGIA
+# Leonidas Tech
 
 > **Slogan:** Solução & Inovação !
 
-Site único que reúne o institucional da PL TECNOLOGIA e o portfólio de Pedro Leonidas (antiga landing page), em React 18.
+Site único que reúne o institucional da Leonidas Tech e o portfólio de Pedro Leonidas (antiga landing page), em React 18.
 
 ## Seções
 

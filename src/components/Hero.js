@@ -12,7 +12,7 @@ const Hero = () => {
             Transformamos ideias em <span className="highlight">soluções digitais</span>
           </h1>
           <p className="hero-subtitle">
-            Na PL TECNOLOGIA, combinamos tecnologia de ponta com inovação para 
+            Na Leonidas Tech, combinamos tecnologia de ponta com inovação para 
             impulsionar o seu negócio para o futuro.
           </p>
           <div className="hero-buttons">

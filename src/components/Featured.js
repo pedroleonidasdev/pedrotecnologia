@@ -52,8 +52,8 @@ const Featured = () => (
         </div>
         <figure className="pf-browser">
           <div className="pf-bar"><span /><span /><span /><em>lojapresentededeus.com.br</em></div>
-          <img src={shot} alt="Tela de gestão de usuários do PDV Católico" />
-          <figcaption>Gestão de usuários — controle de perfil de acesso</figcaption>
+          <img src={shot} alt="Tela de login do PDV Católico" />
+          <figcaption>Tela de login — acesso restrito, uso interno</figcaption>
         </figure>
       </div>
     </div>
